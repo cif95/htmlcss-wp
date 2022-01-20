@@ -110,7 +110,6 @@ figure{
 
 #jumbotron:before{
 	content: "";
-	opacity:0.75;
 	top: 0px;
 	right: 0px;
 	bottom: 0px;
