@@ -2,7 +2,11 @@
 	margin:0;
 	padding:0;
 	box-sizing:border-box;
-	font-family: 'Open Sans', sans-serif;
+}
+
+*:not(header#section-top>h1){
+	font-family: 'Be Vietnam Pro', sans-serif;
+	font-weight: 300;
 }
 
 nav{
@@ -37,7 +41,7 @@ article>figure{
 
 figure{
 	box-shadow: inset 0 0 0 1000px rgba(0,0,0,.2);
-	height: 250px;
+	height:230px;
 }
 
 footer{
@@ -51,7 +55,7 @@ footer>span::after{
 }
 
 .container{
-	width:90%;
+	width:80%;
 	margin:0 auto 20px;
 }
 
@@ -79,11 +83,11 @@ header#section-top{
 }
 
 header#section-top h1{
-	font-size: 3em;
+	font-size: 2.5em;
 }
 
 header#section-top p, nav li, div.text-wrapper p{
-	color: rgb(155, 155, 155);
+	color: rgb(146, 146, 146);
 }
 
 #section-top, section article{
