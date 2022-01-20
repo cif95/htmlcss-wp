@@ -4,10 +4,6 @@
 	box-sizing:border-box;
 }
 
-body{
-	padding:10px;
-}
-
 section>header, footer{
 	height:50px;
 }
@@ -60,7 +56,13 @@ article{
 	background-color: #e1d67a;
 }
 
-#top-menu{
-	height:70px;
-	background-color:#e579e6;
+
+#main-logo{
+	width:200px;
+	padding-right:20px;
+	border-right:1px solid rgb(218, 218, 218);
+}
+
+#main-logo>img{
+	width:100%;
 }
