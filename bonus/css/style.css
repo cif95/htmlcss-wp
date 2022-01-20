@@ -1,0 +1,163 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+}
+
+*:not(header#section-top>h1){
+	font-family: 'Be Vietnam Pro', sans-serif;
+	font-weight: 300;
+}
+
+nav{
+	margin: 20px 0;
+	padding:10px 0;
+}
+
+nav li{
+	font-size: 1.3em;
+	padding:5px;
+	list-style: none;
+	margin-right:15px;
+	text-transform: uppercase;
+	display: inline-block;
+}
+
+aside{
+	width:calc((50% / 2) - 20px);
+}
+
+article{
+	width:50%;
+	margin: 0 20px;
+}
+
+aside, article, section>header{
+	float:left;
+}
+
+article>figure{
+	background:url(../img/banner-2.jpg) center / cover;
+}
+
+figure{
+	box-shadow: inset 0 0 0 1000px rgba(0,0,0,.2);
+	height:230px;
+}
+
+figure:hover{
+	box-shadow: inset 0 0 0 1000px rgba(156, 32, 90, 0.2);
+	outline: 1px solid rgb(185, 185, 185);
+}
+
+footer{
+	text-align: center;
+}
+
+footer>span::after{
+	content: "\2764";
+	font-size: 30px;
+	color:red;
+}
+
+.container{
+	width:80%;
+	margin:0 auto 20px;
+}
+
+.clearfix::after{
+	clear: both;
+	content: "";
+	display: table;
+}
+
+.jumbotron-title{
+	font-size: 2em;
+}
+
+.jumbotron-info{
+	font-size:20px;
+}
+
+.text-wrapper h5{
+	font-size: 1.2em;
+	padding:20px 0;
+}
+
+#jumbotron:hover #jumbotron-text{
+	content:url("../img/Sign_Up_Botton.png");
+	width:30%;
+}
+
+
+header#section-top{
+	padding:20px 0;
+}
+
+header#section-top h1{
+	font-size: 2.5em;
+}
+
+header#section-top p, nav li, div.text-wrapper p{
+	color: rgb(146, 146, 146);
+}
+
+nav li:hover{
+	border-right:1px solid rgb(43, 43, 43);
+	border-bottom:1px solid rgb(43, 43, 43);
+}
+
+#section-top, section article{
+	margin-bottom:20px;
+}
+
+#jumbotron{
+	height:500px;
+	padding:50px;
+	position:relative;
+	background:url(../img/banner.jpg) center / cover;
+}
+
+#jumbotron, 
+#jumbotron:before, 
+figure{
+	border-radius: 10px;
+}
+
+
+#jumbotron:before{
+	content: "";
+	opacity:0.75;
+	top: 0px;
+	right: 0px;
+	bottom: 0px;
+	left: 0px;
+	position: absolute;
+	background-color: rgba(0,0,0,0.25);
+}
+
+#jumbotron-text{
+	width:60%;
+	position:relative;
+	top:65%;
+	color:white;
+	text-align:left;
+}
+
+#main-logo{
+	width:180px;
+	padding-right:20px;
+	border-right:1px solid rgb(218, 218, 218);
+}
+
+#main-logo>img, #section-top{
+	width:100%;
+}
+
+#left-aside>figure{
+	background:url(../img/img-1.jpg) center / cover;
+}
+
+#right-aside>figure{
+	background:url(../img/img-3.jpg) center / cover;
+}
