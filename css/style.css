@@ -56,6 +56,14 @@ nav li{
 	display: table;
 }
 
+.jumbotron-title{
+	font-size: 2em;
+}
+
+.jumbotron-info{
+	font-size:20px;
+}
+
 #main-content{
 	background-color: rgb(1, 134, 255);
 }
@@ -65,25 +73,34 @@ nav li{
 }
 
 #jumbotron{
-	background: url(../img/banner.jpg) center / cover;
 	height:500px;
 	padding:50px;
 	border-radius:10px;
 	position:relative;
+	background:url(../img/banner.jpg) center / cover;
+}
+
+#jumbotron:before{
+	content: "";
+	opacity:0.75;
+	top: 0px;
+	right: 0px;
+	bottom: 0px;
+	left: 0px;
+	position: absolute;
+	background-color: rgba(0,0,0,0.25);
 }
 
 #jumbotron-text{
-	left:50px;
 	width:60%;
-	bottom:50px;
+	position:relative;
+	top:65%;
 	color:white;
 	text-align:left;
-	position:absolute;
-
 }
 
 #main-logo{
-	width:200px;
+	width:180px;
 	padding-right:20px;
 	border-right:1px solid rgb(218, 218, 218);
 }
