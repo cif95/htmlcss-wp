@@ -87,12 +87,14 @@ nav li{
 	right: 0px;
 	bottom: 0px;
 	left: 0px;
+	border-radius:10px;
 	position: absolute;
 	background-color: rgba(0,0,0,0.25);
 }
 
 #jumbotron-text{
 	width:60%;
+	font-family: 'Zen Maru Gothic', sans-serif;
 	position:relative;
 	top:65%;
 	color:white;
